@@ -25,5 +25,5 @@ for i in range(args.num_of_words):
 print(f'Sua frase secreta é: {' '.join(passphrase)}')
 
 with open("passphrase.txt", "w", encoding="utf-8") as file:
-    file.write(f'Sua frase secreta é:\n\n{' '.join(passphrase)}')
+    file.write(f'Sua frase-senha com {args.num_of_words} palavras é:\n\n{' '.join(passphrase)}')
 
